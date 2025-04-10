@@ -1,50 +1,88 @@
-# Welcome to your Expo app 👋
+# ViewHomeLab 🏠
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+ViewHomeLab é um projeto mobile desenvolvido com [Expo](https://expo.dev), uma poderosa plataforma para criar aplicativos universais com React Native. O projeto foi inicializado usando [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+## 💡 Motivação e Objetivos
 
-1. Install dependencies
+O ViewHomeLab nasceu da necessidade de criar uma interface moderna e intuitiva para visualização e controle de ambientes de laboratório doméstico (homelab). Nossos principais objetivos são:
 
-   ```bash
-   npm install
-   ```
+- **Monitoramento Simplificado**: Facilitar a visualização do status de serviços, containers e recursos do homelab
+- **Gestão Eficiente**: Permitir o controle e gerenciamento de recursos do homelab de forma prática e móvel
+- **Experiência Fluida**: Oferecer uma interface responsiva com animações suaves e feedback tátil
+- **Acessibilidade**: Garantir que o aplicativo seja utilizável por todos, com suporte a temas claro/escuro
 
-2. Start the app
+O projeto visa simplificar a vida de entusiastas de homelab, oferecendo uma solução mobile moderna para acompanhar e gerenciar seus ambientes de laboratório doméstico.
 
-   ```bash
-    npx expo start
-   ```
+## 🚀 Tecnologias
 
-In the output, you'll find options to open the app in a
+O projeto utiliza as seguintes tecnologias principais:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **React Native** - Framework para desenvolvimento mobile
+- **Expo** - Plataforma para desenvolvimento React Native
+- **TypeScript** - Superset JavaScript com tipagem estática
+- **React Navigation** - Navegação entre telas
+- **Expo Router** - Sistema de roteamento baseado em arquivos
+- **Reanimated** - Biblioteca para animações fluidas
+- **Gesture Handler** - Manipulação de gestos nativos
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📱 Funcionalidades
 
-## Get a fresh project
+- Sistema de navegação por tabs
+- Suporte a gestos nativos
+- Feedback háptico
+- Componentes reutilizáveis
+- Suporte a temas claro/escuro
+- Testes unitários com Jest
 
-When you're ready, run:
+## 🛠️ Pré-requisitos
 
+- Node.js
+- npm ou yarn
+- Expo CLI
+- Android Studio (para desenvolvimento Android)
+- Xcode (para desenvolvimento iOS, apenas macOS)
+
+## 🚀 Como executar
+
+1. Clone o repositório
+2. Instale as dependências:
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+3. Inicie o projeto:
+```bash
+npm start
+```
 
-## Learn more
+### Comandos disponíveis
 
-To learn more about developing your project with Expo, look at the following resources:
+- `npm start` - Inicia o servidor de desenvolvimento
+- `npm run android` - Executa o app no Android
+- `npm run ios` - Executa o app no iOS
+- `npm run web` - Executa o app na web
+- `npm test` - Executa os testes
+- `npm run lint` - Executa o linter
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📁 Estrutura do Projeto
 
-## Join the community
+- `/app` - Arquivos de rotas e telas do aplicativo
+- `/assets` - Recursos estáticos (imagens, fontes)
+- `/components` - Componentes reutilizáveis
+- `/constants` - Constantes e configurações
+- `/hooks` - Custom hooks React
 
-Join our community of developers creating universal apps.
+## 🤝 Contribuindo
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Contribuições são sempre bem-vindas! Por favor, leia as diretrizes de contribuição antes de submeter pull requests.
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
+
+## 🌐 Links Úteis
+
+- [Documentação Expo](https://docs.expo.dev/)
+- [Tutorial Expo](https://docs.expo.dev/tutorial/introduction/)
+- [Expo no GitHub](https://github.com/expo/expo)
+- [Comunidade Discord](https://chat.expo.dev)
